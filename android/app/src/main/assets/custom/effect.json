@@ -1,0 +1,292 @@
+{
+    "animationEnabled": true,
+    "children": [
+        {
+            "animationEnabled": true,
+            "children": [
+                {
+                    "animationEnabled": true,
+                    "children": [
+                        {
+                            "animationEnabled": true,
+                            "components": [
+                                {
+                                    "blendShapeWeightsExpanded": false,
+                                    "bonesExpanded": false,
+                                    "enabled": true,
+                                    "material": "~/horns_shader.mat",
+                                    "mesh": "~/horns.armesh",
+                                    "meshDriver": "none",
+                                    "open": true,
+                                    "type": "meshRenderer"
+                                }
+                            ],
+                            "depth": 0,
+                            "dynamicUv": "disabled",
+                            "editorAnimationsOpen": false,
+                            "editorOpen": false,
+                            "editorPropertyOpen": true,
+                            "editorSelectedAnimation": "",
+                            "enabled": true,
+                            "localPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "localRotation": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "localScale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "name": "horns",
+                            "viewId": 2
+                        },
+                        {
+                            "animationEnabled": true,
+                            "components": [
+                                {
+                                    "blendShapeWeightsExpanded": false,
+                                    "bonesExpanded": false,
+                                    "enabled": true,
+                                    "material": "~/screws_shader.mat",
+                                    "mesh": "~/screws.armesh",
+                                    "meshDriver": "none",
+                                    "open": true,
+                                    "type": "meshRenderer"
+                                }
+                            ],
+                            "depth": 0,
+                            "dynamicUv": "disabled",
+                            "editorAnimationsOpen": false,
+                            "editorOpen": false,
+                            "editorPropertyOpen": true,
+                            "editorSelectedAnimation": "",
+                            "enabled": true,
+                            "localPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "localRotation": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "localScale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "name": "screws",
+                            "viewId": 2
+                        },
+                        {
+                            "animationEnabled": true,
+                            "components": [
+                                {
+                                    "blendShapeWeightsExpanded": false,
+                                    "bonesExpanded": false,
+                                    "enabled": true,
+                                    "material": "~/occ_shdaer.mat",
+                                    "mesh": "~/occ_head.armesh",
+                                    "meshDriver": "none",
+                                    "open": true,
+                                    "type": "meshRenderer"
+                                }
+                            ],
+                            "depth": 0,
+                            "dynamicUv": "disabled",
+                            "editorAnimationsOpen": false,
+                            "editorOpen": false,
+                            "editorPropertyOpen": true,
+                            "editorSelectedAnimation": "",
+                            "enabled": false,
+                            "localPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "localRotation": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "localScale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "name": "occ_head",
+                            "viewId": 2
+                        },
+                        {
+                            "animationEnabled": true,
+                            "components": [
+                                {
+                                    "blendShapeWeightsExpanded": false,
+                                    "bonesExpanded": false,
+                                    "enabled": true,
+                                    "material": "~/plate_shader.mat",
+                                    "mesh": "~/metal_plate.armesh",
+                                    "meshDriver": "none",
+                                    "open": true,
+                                    "type": "meshRenderer"
+                                }
+                            ],
+                            "depth": 0,
+                            "dynamicUv": "disabled",
+                            "editorAnimationsOpen": false,
+                            "editorOpen": false,
+                            "editorPropertyOpen": true,
+                            "editorSelectedAnimation": "",
+                            "enabled": true,
+                            "localPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "localRotation": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "localScale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "name": "metal_plate",
+                            "viewId": 2
+                        },
+                        {
+                            "animationEnabled": true,
+                            "components": [
+                                {
+                                    "blendShapeWeightsExpanded": false,
+                                    "bonesExpanded": false,
+                                    "enabled": true,
+                                    "material": "~/base_shader.mat",
+                                    "mesh": "~/base.armesh",
+                                    "meshDriver": "none",
+                                    "open": true,
+                                    "type": "meshRenderer"
+                                }
+                            ],
+                            "depth": 0,
+                            "dynamicUv": "disabled",
+                            "editorAnimationsOpen": false,
+                            "editorOpen": false,
+                            "editorPropertyOpen": true,
+                            "editorSelectedAnimation": "",
+                            "enabled": true,
+                            "localPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "localRotation": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "localScale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "name": "base",
+                            "viewId": 2
+                        }
+                    ],
+                    "depth": 0,
+                    "dynamicUv": "disabled",
+                    "editorAnimationsOpen": false,
+                    "editorOpen": true,
+                    "editorPropertyOpen": true,
+                    "editorSelectedAnimation": "",
+                    "enabled": true,
+                    "localPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "localRotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "localScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "name": "Helmet",
+                    "viewId": 2
+                }
+            ],
+            "depth": 0,
+            "dynamicUv": "disabled",
+            "editorAnimationsOpen": false,
+            "editorOpen": true,
+            "editorPropertyOpen": true,
+            "editorSelectedAnimation": "",
+            "enabled": true,
+            "localPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localRotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "viking_helmet.fbx",
+            "sceneBase": "~/viking_helmet.fbx",
+            "viewId": 2
+        }
+    ],
+    "depth": 0,
+    "dynamicUv": "disabled",
+    "editorAnimationsOpen": false,
+    "editorOpen": true,
+    "editorPropertyOpen": true,
+    "editorSelectedAnimation": "",
+    "enabled": true,
+    "hiddenViewIds": [],
+    "localEulerAngles": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "localPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "localScale": [
+        1.0,
+        1.0,
+        1.0
+    ],
+    "name": "Root",
+    "space": "face",
+    "viewId": 2
+}

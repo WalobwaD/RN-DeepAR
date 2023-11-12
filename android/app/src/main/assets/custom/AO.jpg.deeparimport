@@ -1,0 +1,11 @@
+{
+    "compression": "lossy",
+    "dataType": "colorData",
+    "hasMipmaps": true,
+    "height": 3871,
+    "originalFormatLossy": true,
+    "resizeMode": "bilinear",
+    "type": "texture",
+    "width": 3871,
+    "wrapMode": "repeat"
+}

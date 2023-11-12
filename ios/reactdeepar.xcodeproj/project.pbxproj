@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* reactdeeparTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactdeeparTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-reactdeepar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-reactdeepar.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-reactdeepar-reactdeeparTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-reactdeepar-reactdeeparTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		16195563E15346D5B1785EDD /* effect.json in Resources */ = {isa = PBXBuildFile; fileRef = DA55402E47E649798FE4A0C1 /* effect.json */; };
+		80840084C66148FA8102B9C0 /* project.dprm in Resources */ = {isa = PBXBuildFile; fileRef = 364AD12CCF214CEE8A315D95 /* project.dprm */; };
+		3AAA6C87B44E4239A81B6FAD /* AO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02A85E245EAC4D518F56908D /* AO.jpg */; };
+		CE26321CC08F40DFBDA58B9D /* AO.jpg.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = C5717B66682E4E14976BA438 /* AO.jpg.deeparcache */; };
+		FECC5C0F454C4A07B775A478 /* AO.jpg.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 52E467C358FD4C318554F262 /* AO.jpg.deeparimport */; };
+		80A744E31A3440499988A34C /* base.armesh in Resources */ = {isa = PBXBuildFile; fileRef = D4B93524B57A47CEADE28B56 /* base.armesh */; };
+		BE54F8E548D64ED1AF47584A /* base.armesh.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = F22A167E75A5442880D314B8 /* base.armesh.deeparimport */; };
+		9B6FEFA10D0A4D94BBFCE22E /* base_shader.mat in Resources */ = {isa = PBXBuildFile; fileRef = DA2656932D2542ADB411B045 /* base_shader.mat */; };
+		953A7EED094A4AF785225049 /* base_shader.mat.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 01971C906EC84D148722770F /* base_shader.mat.deeparimport */; };
+		F902941D7C3348E790310BCB /* CameraTexture.tex in Resources */ = {isa = PBXBuildFile; fileRef = 864BC61C8FCB4F1F84164982 /* CameraTexture.tex */; };
+		D87794EA17554143988BEA51 /* CameraTexture.tex.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 92700F760353414191D216E8 /* CameraTexture.tex.deeparimport */; };
+		B9AC90993A3E411FA76191E4 /* diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22F710EC3F8C4740AD4BEC1F /* diffuse.jpg */; };
+		5A1E15143FC0418985A00F26 /* diffuse.jpg.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = F32402E09FD143928EE4F4DE /* diffuse.jpg.deeparcache */; };
+		10B25A7FE3CD4A9BAEB8D7B2 /* diffuse.jpg.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 9AEB934EEFD540A5996FFDE8 /* diffuse.jpg.deeparimport */; };
+		F769ED61BDCA498D81AB3AAF /* horns.armesh in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E8F8DF2194E8FBB1CB9A2 /* horns.armesh */; };
+		FB953977C8A84FBBB9862A6D /* horns.armesh.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = AB1804F0A34F4183A3E8ECB9 /* horns.armesh.deeparimport */; };
+		B443DC49F5D34A1886B7A0DC /* horns_shader.mat in Resources */ = {isa = PBXBuildFile; fileRef = 142676EF0B4E42A1AA7C1E04 /* horns_shader.mat */; };
+		2B28880526DA467FA27DE014 /* horns_shader.mat.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 71634EB9C13E42468199674C /* horns_shader.mat.deeparimport */; };
+		E394FF06C684470D9B4E4FAB /* metalness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F152D0DE8B9D405B8911697A /* metalness.jpg */; };
+		D57DF3D253374CA58421D865 /* metalness.jpg.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = F32088541C834BD49335979D /* metalness.jpg.deeparcache */; };
+		5A85B3FF8B0B4F23822EF966 /* metalness.jpg.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = D29C1D61A3FC4591855E9E38 /* metalness.jpg.deeparimport */; };
+		932808F7C15B4C8CA7D47705 /* metal_plate.armesh in Resources */ = {isa = PBXBuildFile; fileRef = 43F17ED49E494584B01C4437 /* metal_plate.armesh */; };
+		5DC18FD92EB04B659D46885F /* metal_plate.armesh.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 9E65D55D045C41FE919FFA39 /* metal_plate.armesh.deeparimport */; };
+		025D218B76154A4E9839B76A /* normal_map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BE564965125418E8944A63D /* normal_map.jpg */; };
+		EF00CCB2EDF849AD9674AC96 /* normal_map.jpg.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = C20E5EC3465840CCB9EBC52F /* normal_map.jpg.deeparcache */; };
+		A8079D296FB440B2ABC7DEE2 /* normal_map.jpg.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = AF7C1E129CCB4E7087859D46 /* normal_map.jpg.deeparimport */; };
+		71DC332CC51C49198B1D6E16 /* occ_head.armesh in Resources */ = {isa = PBXBuildFile; fileRef = 82B958B389904C2EBBE41F4F /* occ_head.armesh */; };
+		DE666302975C41609E76688B /* occ_head.armesh.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 5F9AD5D6012F41B4A71998AD /* occ_head.armesh.deeparimport */; };
+		4DDA4C5E2F364B97A9FA5202 /* occ_shdaer.mat in Resources */ = {isa = PBXBuildFile; fileRef = 2F77DBF667D84F88ABDE0BDE /* occ_shdaer.mat */; };
+		AF74D7675DC140399F2EEAA7 /* occ_shdaer.mat.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = EC1ABAC444A74A9DB2043695 /* occ_shdaer.mat.deeparimport */; };
+		9DE7535070974FB58C3ECE3C /* plate_shader.mat in Resources */ = {isa = PBXBuildFile; fileRef = 1914DDA0D4914C309E14B522 /* plate_shader.mat */; };
+		E963028B9EB1418F833E1C64 /* plate_shader.mat.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = D8D6BB6B09A14CF48EF88856 /* plate_shader.mat.deeparimport */; };
+		BA7C6B883BC24303997627BE /* roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A5F7472908247A29A917922 /* roughness.jpg */; };
+		2934F1ED9BFF4317B23FDF6A /* roughness.jpg.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = 5D7DEFF5229E482884B2A1FF /* roughness.jpg.deeparcache */; };
+		BD5F4BC06826437C86F2F52F /* roughness.jpg.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = CD867E4EA47A46B18955AE37 /* roughness.jpg.deeparimport */; };
+		2EAC2E911D9A4596BB35D099 /* screws.armesh in Resources */ = {isa = PBXBuildFile; fileRef = 1FADF3CF56EF4B5492803282 /* screws.armesh */; };
+		7BD5FE41AD9E4B4DA7EF7D74 /* screws.armesh.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 69CF4D78307F464480A37A25 /* screws.armesh.deeparimport */; };
+		9E3E003345F24296A6635F10 /* screws_shader.mat in Resources */ = {isa = PBXBuildFile; fileRef = 4BB511DDC61A43D6902A57AE /* screws_shader.mat */; };
+		4934C322008A47DCB92E1923 /* screws_shader.mat.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 52916B4AEAF14BAEA14B25A7 /* screws_shader.mat.deeparimport */; };
+		AA093A68B7BE4AF18A5B0030 /* skybox1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B18C2FBAC24A2683E6A1D6 /* skybox1.png */; };
+		C2C81B49900F40F3B55CB39C /* skybox1.png.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = 46CE624162D74759A4069DDF /* skybox1.png.deeparcache */; };
+		FF0A2DE047914FB6ADB0A71D /* skybox1.png.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC3376303A4BA7AAF9A693 /* skybox1.png.deeparimport */; };
+		B811A8D128274F12A7DE850C /* skybox2.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA80339A9F44429C66AF63 /* skybox2.png */; };
+		68EF1838F55C45EDAAEB1BB1 /* skybox2.png.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = B591F7877A334247B34B2E7E /* skybox2.png.deeparcache */; };
+		B6CDD26D29B746BDAE54F2F5 /* skybox2.png.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = C74A6152C137419082376C84 /* skybox2.png.deeparimport */; };
+		02B7BDF176004F849356188F /* skybox3.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF7C476B2194C40B1DB4A7B /* skybox3.png */; };
+		0E7D6E5070C44ECBB3EEE3A5 /* skybox3.png.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = 3B4767D5C75A45039AE9E441 /* skybox3.png.deeparcache */; };
+		2C30C49EB7AE4E78BAF46D7D /* skybox3.png.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = D9FAAB6F09CF441ABAA1D137 /* skybox3.png.deeparimport */; };
+		01E3D6F5BA374CF7836FF2F5 /* viking_helmet.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 3B7FA621BACB425FB94643CC /* viking_helmet.fbx */; };
+		B28A43ABFF0847C395147330 /* viking_helmet.fbx.deeparcache in Resources */ = {isa = PBXBuildFile; fileRef = 54C2A78CDEFF418DADD87C4D /* viking_helmet.fbx.deeparcache */; };
+		F5BDE54DB0154D31AF1CFA6B /* viking_helmet.fbx.deeparimport in Resources */ = {isa = PBXBuildFile; fileRef = 758B6E5EE30B4461BB918C24 /* viking_helmet.fbx.deeparimport */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = reactdeepar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* reactdeeparTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactdeeparTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* reactdeeparTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactdeeparTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* reactdeepar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactdeepar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactdeepar/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = reactdeepar/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactdeepar/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactdeepar/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactdeepar/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-reactdeepar-reactdeeparTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactdeepar-reactdeeparTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-reactdeepar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactdeepar.debug.xcconfig"; path = "Target Support Files/Pods-reactdeepar/Pods-reactdeepar.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-reactdeepar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactdeepar.release.xcconfig"; path = "Target Support Files/Pods-reactdeepar/Pods-reactdeepar.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-reactdeepar-reactdeeparTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactdeepar-reactdeeparTests.debug.xcconfig"; path = "Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-reactdeepar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactdeepar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactdeepar/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-reactdeepar-reactdeeparTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactdeepar-reactdeeparTests.release.xcconfig"; path = "Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DA55402E47E649798FE4A0C1 /* effect.json */ = {isa = PBXFileReference; name = "effect.json"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/effect.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		364AD12CCF214CEE8A315D95 /* project.dprm */ = {isa = PBXFileReference; name = "project.dprm"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/project.dprm"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02A85E245EAC4D518F56908D /* AO.jpg */ = {isa = PBXFileReference; name = "AO.jpg"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/AO.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5717B66682E4E14976BA438 /* AO.jpg.deeparcache */ = {isa = PBXFileReference; name = "AO.jpg.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/AO.jpg.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52E467C358FD4C318554F262 /* AO.jpg.deeparimport */ = {isa = PBXFileReference; name = "AO.jpg.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/AO.jpg.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4B93524B57A47CEADE28B56 /* base.armesh */ = {isa = PBXFileReference; name = "base.armesh"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/base.armesh"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F22A167E75A5442880D314B8 /* base.armesh.deeparimport */ = {isa = PBXFileReference; name = "base.armesh.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/base.armesh.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA2656932D2542ADB411B045 /* base_shader.mat */ = {isa = PBXFileReference; name = "base_shader.mat"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/base_shader.mat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01971C906EC84D148722770F /* base_shader.mat.deeparimport */ = {isa = PBXFileReference; name = "base_shader.mat.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/base_shader.mat.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		864BC61C8FCB4F1F84164982 /* CameraTexture.tex */ = {isa = PBXFileReference; name = "CameraTexture.tex"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/CameraTexture.tex"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92700F760353414191D216E8 /* CameraTexture.tex.deeparimport */ = {isa = PBXFileReference; name = "CameraTexture.tex.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/CameraTexture.tex.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22F710EC3F8C4740AD4BEC1F /* diffuse.jpg */ = {isa = PBXFileReference; name = "diffuse.jpg"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/diffuse.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F32402E09FD143928EE4F4DE /* diffuse.jpg.deeparcache */ = {isa = PBXFileReference; name = "diffuse.jpg.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/diffuse.jpg.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AEB934EEFD540A5996FFDE8 /* diffuse.jpg.deeparimport */ = {isa = PBXFileReference; name = "diffuse.jpg.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/diffuse.jpg.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F1E8F8DF2194E8FBB1CB9A2 /* horns.armesh */ = {isa = PBXFileReference; name = "horns.armesh"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/horns.armesh"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB1804F0A34F4183A3E8ECB9 /* horns.armesh.deeparimport */ = {isa = PBXFileReference; name = "horns.armesh.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/horns.armesh.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		142676EF0B4E42A1AA7C1E04 /* horns_shader.mat */ = {isa = PBXFileReference; name = "horns_shader.mat"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/horns_shader.mat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71634EB9C13E42468199674C /* horns_shader.mat.deeparimport */ = {isa = PBXFileReference; name = "horns_shader.mat.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/horns_shader.mat.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F152D0DE8B9D405B8911697A /* metalness.jpg */ = {isa = PBXFileReference; name = "metalness.jpg"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/metalness.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F32088541C834BD49335979D /* metalness.jpg.deeparcache */ = {isa = PBXFileReference; name = "metalness.jpg.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/metalness.jpg.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D29C1D61A3FC4591855E9E38 /* metalness.jpg.deeparimport */ = {isa = PBXFileReference; name = "metalness.jpg.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/metalness.jpg.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		43F17ED49E494584B01C4437 /* metal_plate.armesh */ = {isa = PBXFileReference; name = "metal_plate.armesh"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/metal_plate.armesh"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E65D55D045C41FE919FFA39 /* metal_plate.armesh.deeparimport */ = {isa = PBXFileReference; name = "metal_plate.armesh.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/metal_plate.armesh.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3BE564965125418E8944A63D /* normal_map.jpg */ = {isa = PBXFileReference; name = "normal_map.jpg"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/normal_map.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C20E5EC3465840CCB9EBC52F /* normal_map.jpg.deeparcache */ = {isa = PBXFileReference; name = "normal_map.jpg.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/normal_map.jpg.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF7C1E129CCB4E7087859D46 /* normal_map.jpg.deeparimport */ = {isa = PBXFileReference; name = "normal_map.jpg.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/normal_map.jpg.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82B958B389904C2EBBE41F4F /* occ_head.armesh */ = {isa = PBXFileReference; name = "occ_head.armesh"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/occ_head.armesh"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F9AD5D6012F41B4A71998AD /* occ_head.armesh.deeparimport */ = {isa = PBXFileReference; name = "occ_head.armesh.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/occ_head.armesh.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F77DBF667D84F88ABDE0BDE /* occ_shdaer.mat */ = {isa = PBXFileReference; name = "occ_shdaer.mat"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/occ_shdaer.mat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC1ABAC444A74A9DB2043695 /* occ_shdaer.mat.deeparimport */ = {isa = PBXFileReference; name = "occ_shdaer.mat.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/occ_shdaer.mat.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1914DDA0D4914C309E14B522 /* plate_shader.mat */ = {isa = PBXFileReference; name = "plate_shader.mat"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/plate_shader.mat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8D6BB6B09A14CF48EF88856 /* plate_shader.mat.deeparimport */ = {isa = PBXFileReference; name = "plate_shader.mat.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/plate_shader.mat.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A5F7472908247A29A917922 /* roughness.jpg */ = {isa = PBXFileReference; name = "roughness.jpg"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/roughness.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D7DEFF5229E482884B2A1FF /* roughness.jpg.deeparcache */ = {isa = PBXFileReference; name = "roughness.jpg.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/roughness.jpg.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD867E4EA47A46B18955AE37 /* roughness.jpg.deeparimport */ = {isa = PBXFileReference; name = "roughness.jpg.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/roughness.jpg.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FADF3CF56EF4B5492803282 /* screws.armesh */ = {isa = PBXFileReference; name = "screws.armesh"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/screws.armesh"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69CF4D78307F464480A37A25 /* screws.armesh.deeparimport */ = {isa = PBXFileReference; name = "screws.armesh.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/screws.armesh.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BB511DDC61A43D6902A57AE /* screws_shader.mat */ = {isa = PBXFileReference; name = "screws_shader.mat"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/screws_shader.mat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52916B4AEAF14BAEA14B25A7 /* screws_shader.mat.deeparimport */ = {isa = PBXFileReference; name = "screws_shader.mat.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/screws_shader.mat.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A6B18C2FBAC24A2683E6A1D6 /* skybox1.png */ = {isa = PBXFileReference; name = "skybox1.png"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46CE624162D74759A4069DDF /* skybox1.png.deeparcache */ = {isa = PBXFileReference; name = "skybox1.png.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox1.png.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DCC3376303A4BA7AAF9A693 /* skybox1.png.deeparimport */ = {isa = PBXFileReference; name = "skybox1.png.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox1.png.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76CA80339A9F44429C66AF63 /* skybox2.png */ = {isa = PBXFileReference; name = "skybox2.png"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B591F7877A334247B34B2E7E /* skybox2.png.deeparcache */ = {isa = PBXFileReference; name = "skybox2.png.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox2.png.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C74A6152C137419082376C84 /* skybox2.png.deeparimport */ = {isa = PBXFileReference; name = "skybox2.png.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox2.png.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAF7C476B2194C40B1DB4A7B /* skybox3.png */ = {isa = PBXFileReference; name = "skybox3.png"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B4767D5C75A45039AE9E441 /* skybox3.png.deeparcache */ = {isa = PBXFileReference; name = "skybox3.png.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox3.png.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9FAAB6F09CF441ABAA1D137 /* skybox3.png.deeparimport */ = {isa = PBXFileReference; name = "skybox3.png.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/skybox3.png.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B7FA621BACB425FB94643CC /* viking_helmet.fbx */ = {isa = PBXFileReference; name = "viking_helmet.fbx"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/viking_helmet.fbx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54C2A78CDEFF418DADD87C4D /* viking_helmet.fbx.deeparcache */ = {isa = PBXFileReference; name = "viking_helmet.fbx.deeparcache"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/viking_helmet.fbx.deeparcache"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		758B6E5EE30B4461BB918C24 /* viking_helmet.fbx.deeparimport */ = {isa = PBXFileReference; name = "viking_helmet.fbx.deeparimport"; path = "../src/assets/effects/FirstHelmetFilter.deeparproj/resources/viking_helmet.fbx.deeparimport"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-reactdeepar-reactdeeparTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-reactdeepar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* reactdeeparTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* reactdeeparTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = reactdeeparTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* reactdeepar */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = reactdeepar;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-reactdeepar.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-reactdeepar-reactdeeparTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* reactdeepar */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* reactdeeparTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FEAF496E52C84A1DBD0CEE67 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* reactdeepar.app */,
+				00E356EE1AD99517003FC87E /* reactdeeparTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-reactdeepar.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-reactdeepar.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-reactdeepar-reactdeeparTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-reactdeepar-reactdeeparTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEAF496E52C84A1DBD0CEE67 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				DA55402E47E649798FE4A0C1 /* effect.json */,
+				364AD12CCF214CEE8A315D95 /* project.dprm */,
+				02A85E245EAC4D518F56908D /* AO.jpg */,
+				C5717B66682E4E14976BA438 /* AO.jpg.deeparcache */,
+				52E467C358FD4C318554F262 /* AO.jpg.deeparimport */,
+				D4B93524B57A47CEADE28B56 /* base.armesh */,
+				F22A167E75A5442880D314B8 /* base.armesh.deeparimport */,
+				DA2656932D2542ADB411B045 /* base_shader.mat */,
+				01971C906EC84D148722770F /* base_shader.mat.deeparimport */,
+				864BC61C8FCB4F1F84164982 /* CameraTexture.tex */,
+				92700F760353414191D216E8 /* CameraTexture.tex.deeparimport */,
+				22F710EC3F8C4740AD4BEC1F /* diffuse.jpg */,
+				F32402E09FD143928EE4F4DE /* diffuse.jpg.deeparcache */,
+				9AEB934EEFD540A5996FFDE8 /* diffuse.jpg.deeparimport */,
+				9F1E8F8DF2194E8FBB1CB9A2 /* horns.armesh */,
+				AB1804F0A34F4183A3E8ECB9 /* horns.armesh.deeparimport */,
+				142676EF0B4E42A1AA7C1E04 /* horns_shader.mat */,
+				71634EB9C13E42468199674C /* horns_shader.mat.deeparimport */,
+				F152D0DE8B9D405B8911697A /* metalness.jpg */,
+				F32088541C834BD49335979D /* metalness.jpg.deeparcache */,
+				D29C1D61A3FC4591855E9E38 /* metalness.jpg.deeparimport */,
+				43F17ED49E494584B01C4437 /* metal_plate.armesh */,
+				9E65D55D045C41FE919FFA39 /* metal_plate.armesh.deeparimport */,
+				3BE564965125418E8944A63D /* normal_map.jpg */,
+				C20E5EC3465840CCB9EBC52F /* normal_map.jpg.deeparcache */,
+				AF7C1E129CCB4E7087859D46 /* normal_map.jpg.deeparimport */,
+				82B958B389904C2EBBE41F4F /* occ_head.armesh */,
+				5F9AD5D6012F41B4A71998AD /* occ_head.armesh.deeparimport */,
+				2F77DBF667D84F88ABDE0BDE /* occ_shdaer.mat */,
+				EC1ABAC444A74A9DB2043695 /* occ_shdaer.mat.deeparimport */,
+				1914DDA0D4914C309E14B522 /* plate_shader.mat */,
+				D8D6BB6B09A14CF48EF88856 /* plate_shader.mat.deeparimport */,
+				6A5F7472908247A29A917922 /* roughness.jpg */,
+				5D7DEFF5229E482884B2A1FF /* roughness.jpg.deeparcache */,
+				CD867E4EA47A46B18955AE37 /* roughness.jpg.deeparimport */,
+				1FADF3CF56EF4B5492803282 /* screws.armesh */,
+				69CF4D78307F464480A37A25 /* screws.armesh.deeparimport */,
+				4BB511DDC61A43D6902A57AE /* screws_shader.mat */,
+				52916B4AEAF14BAEA14B25A7 /* screws_shader.mat.deeparimport */,
+				A6B18C2FBAC24A2683E6A1D6 /* skybox1.png */,
+				46CE624162D74759A4069DDF /* skybox1.png.deeparcache */,
+				8DCC3376303A4BA7AAF9A693 /* skybox1.png.deeparimport */,
+				76CA80339A9F44429C66AF63 /* skybox2.png */,
+				B591F7877A334247B34B2E7E /* skybox2.png.deeparcache */,
+				C74A6152C137419082376C84 /* skybox2.png.deeparimport */,
+				EAF7C476B2194C40B1DB4A7B /* skybox3.png */,
+				3B4767D5C75A45039AE9E441 /* skybox3.png.deeparcache */,
+				D9FAAB6F09CF441ABAA1D137 /* skybox3.png.deeparimport */,
+				3B7FA621BACB425FB94643CC /* viking_helmet.fbx */,
+				54C2A78CDEFF418DADD87C4D /* viking_helmet.fbx.deeparcache */,
+				758B6E5EE30B4461BB918C24 /* viking_helmet.fbx.deeparimport */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* reactdeeparTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactdeeparTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = reactdeeparTests;
+			productName = reactdeeparTests;
+			productReference = 00E356EE1AD99517003FC87E /* reactdeeparTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* reactdeepar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactdeepar" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reactdeepar;
+			productName = reactdeepar;
+			productReference = 13B07F961A680F5B00A75B9A /* reactdeepar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactdeepar" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* reactdeepar */,
+				00E356ED1AD99517003FC87E /* reactdeeparTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				16195563E15346D5B1785EDD /* effect.json in Resources */,
+				80840084C66148FA8102B9C0 /* project.dprm in Resources */,
+				3AAA6C87B44E4239A81B6FAD /* AO.jpg in Resources */,
+				CE26321CC08F40DFBDA58B9D /* AO.jpg.deeparcache in Resources */,
+				FECC5C0F454C4A07B775A478 /* AO.jpg.deeparimport in Resources */,
+				80A744E31A3440499988A34C /* base.armesh in Resources */,
+				BE54F8E548D64ED1AF47584A /* base.armesh.deeparimport in Resources */,
+				9B6FEFA10D0A4D94BBFCE22E /* base_shader.mat in Resources */,
+				953A7EED094A4AF785225049 /* base_shader.mat.deeparimport in Resources */,
+				F902941D7C3348E790310BCB /* CameraTexture.tex in Resources */,
+				D87794EA17554143988BEA51 /* CameraTexture.tex.deeparimport in Resources */,
+				B9AC90993A3E411FA76191E4 /* diffuse.jpg in Resources */,
+				5A1E15143FC0418985A00F26 /* diffuse.jpg.deeparcache in Resources */,
+				10B25A7FE3CD4A9BAEB8D7B2 /* diffuse.jpg.deeparimport in Resources */,
+				F769ED61BDCA498D81AB3AAF /* horns.armesh in Resources */,
+				FB953977C8A84FBBB9862A6D /* horns.armesh.deeparimport in Resources */,
+				B443DC49F5D34A1886B7A0DC /* horns_shader.mat in Resources */,
+				2B28880526DA467FA27DE014 /* horns_shader.mat.deeparimport in Resources */,
+				E394FF06C684470D9B4E4FAB /* metalness.jpg in Resources */,
+				D57DF3D253374CA58421D865 /* metalness.jpg.deeparcache in Resources */,
+				5A85B3FF8B0B4F23822EF966 /* metalness.jpg.deeparimport in Resources */,
+				932808F7C15B4C8CA7D47705 /* metal_plate.armesh in Resources */,
+				5DC18FD92EB04B659D46885F /* metal_plate.armesh.deeparimport in Resources */,
+				025D218B76154A4E9839B76A /* normal_map.jpg in Resources */,
+				EF00CCB2EDF849AD9674AC96 /* normal_map.jpg.deeparcache in Resources */,
+				A8079D296FB440B2ABC7DEE2 /* normal_map.jpg.deeparimport in Resources */,
+				71DC332CC51C49198B1D6E16 /* occ_head.armesh in Resources */,
+				DE666302975C41609E76688B /* occ_head.armesh.deeparimport in Resources */,
+				4DDA4C5E2F364B97A9FA5202 /* occ_shdaer.mat in Resources */,
+				AF74D7675DC140399F2EEAA7 /* occ_shdaer.mat.deeparimport in Resources */,
+				9DE7535070974FB58C3ECE3C /* plate_shader.mat in Resources */,
+				E963028B9EB1418F833E1C64 /* plate_shader.mat.deeparimport in Resources */,
+				BA7C6B883BC24303997627BE /* roughness.jpg in Resources */,
+				2934F1ED9BFF4317B23FDF6A /* roughness.jpg.deeparcache in Resources */,
+				BD5F4BC06826437C86F2F52F /* roughness.jpg.deeparimport in Resources */,
+				2EAC2E911D9A4596BB35D099 /* screws.armesh in Resources */,
+				7BD5FE41AD9E4B4DA7EF7D74 /* screws.armesh.deeparimport in Resources */,
+				9E3E003345F24296A6635F10 /* screws_shader.mat in Resources */,
+				4934C322008A47DCB92E1923 /* screws_shader.mat.deeparimport in Resources */,
+				AA093A68B7BE4AF18A5B0030 /* skybox1.png in Resources */,
+				C2C81B49900F40F3B55CB39C /* skybox1.png.deeparcache in Resources */,
+				FF0A2DE047914FB6ADB0A71D /* skybox1.png.deeparimport in Resources */,
+				B811A8D128274F12A7DE850C /* skybox2.png in Resources */,
+				68EF1838F55C45EDAAEB1BB1 /* skybox2.png.deeparcache in Resources */,
+				B6CDD26D29B746BDAE54F2F5 /* skybox2.png.deeparimport in Resources */,
+				02B7BDF176004F849356188F /* skybox3.png in Resources */,
+				0E7D6E5070C44ECBB3EEE3A5 /* skybox3.png.deeparcache in Resources */,
+				2C30C49EB7AE4E78BAF46D7D /* skybox3.png.deeparimport in Resources */,
+				01E3D6F5BA374CF7836FF2F5 /* viking_helmet.fbx in Resources */,
+				B28A43ABFF0847C395147330 /* viking_helmet.fbx.deeparcache in Resources */,
+				F5BDE54DB0154D31AF1CFA6B /* viking_helmet.fbx.deeparimport in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar/Pods-reactdeepar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar/Pods-reactdeepar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactdeepar/Pods-reactdeepar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactdeepar-reactdeeparTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactdeepar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar/Pods-reactdeepar-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar/Pods-reactdeepar-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactdeepar/Pods-reactdeepar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactdeepar-reactdeeparTests/Pods-reactdeepar-reactdeeparTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* reactdeeparTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* reactdeepar */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-reactdeepar-reactdeeparTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = reactdeeparTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactdeepar.app/reactdeepar";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-reactdeepar-reactdeeparTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = reactdeeparTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactdeepar.app/reactdeepar";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-reactdeepar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = reactdeepar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = reactdeepar;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-reactdeepar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = reactdeepar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = reactdeepar;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactdeeparTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactdeepar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactdeepar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
