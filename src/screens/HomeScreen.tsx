@@ -8,7 +8,7 @@ const HomeScreen = ({navigation}: {navigation:any})=> {
                     navigation.navigate('Camera')
                 }}
             >
-                <Text> Go to Camera</Text>
+                <Text> Go  Camera</Text>
             </TouchableOpacity>
         </View>
     )
