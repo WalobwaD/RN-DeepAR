@@ -47,7 +47,7 @@ const CameraScreen = ({navigation}: {navigation: any}) => {
     })
       .fetch(
         'GET',
-        'https://stzplxvphnymrsyuyyvy.supabase.co/storage/v1/object/public/Deepar/Clown.deepar',
+        'https://stzplxvphnymrsyuyyvy.supabase.co/storage/v1/object/public/Deepar/FaceMask.deepar',
       )
       .then(res => {
         deepARRef?.current?.switchEffectWithPath({
